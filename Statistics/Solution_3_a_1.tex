@@ -1,0 +1,83 @@
+\documentclass[]{report}
+
+\voffset=-1.5cm
+\oddsidemargin=0.0cm
+\textwidth = 480pt
+
+\usepackage{framed}
+\usepackage{subfiles}
+\usepackage{graphics}
+\usepackage{newlfont}
+\usepackage{eurosym}
+\usepackage{enumerate}
+\usepackage{amsmath,amsthm,amsfonts}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{graphicx}
+\begin{document}
+%====================================================================================================%
+
+\subsection*{Exercise: Combinations}
+
+A committee of 4 must be chosen from 3 women and 4 men.
+
+\begin{enumerate}[(1)]
+\item In how many ways can the committee be chosen, regardless of sex.
+\item In how many cans 2 men and 2 women be chosen.
+\item Compute the probability of a committee of 2 men and 2 women are chosen.
+\item Compute the probability of at least two women.
+\end{enumerate}
+
+%===================================================================================================%
+\subsection*{Part 1}
+
+We need to choose 4 people from 7:
+
+This can be done in
+
+\[
+^7 C_4  = {7!  \over 4! \times 3!} =  {7 \times 6 \times 5 \times 4!  \over 4! \times 3!} = 35 \mbox{ ways.}
+\]
+
+%===================================================================================================%
+\subsection*{Part 2}
+
+With 4 men to choose from, 2 men can be selected in \[
+^4 C_2  = {4!  \over 2! \times 2!} =  {4 \times 3 \times 2!  \over 2! \times 2!} = 6\mbox{ ways.}
+\]
+
+Similarly 2 women can be selected from 3 in
+\[
+^3 C_2  = {3!  \over 2! \times1!} =  {3 \times 2!  \over 2! \times 1!} = 3\mbox{ ways.}
+\]
+
+%===================================================================================================%
+
+Thus a committee of 2 men and 2 women can be selected in $ 6 \times 3  = 18 $ ways.\\
+
+\subsection*{Part 3}
+
+The probability of two men and two women on a committee is
+\[ {\mbox{Number of ways of selecting 2 men and 2 women} \over \mbox{Number of ways of selecting 4 from 7}} = {18 \over 35 }\]
+
+
+%===================================================================================================%
+\subsection*{Part 4}
+\begin{itemize}
+\item The probability of at least two women is the probability of 2 women or 3 women being selected.
+\item We can use the addition rule, noting that these are two mutually exclusive events.
+\item From before we know that probability of 2 women being selected is 18/35.
+\item We have to compute the number of ways of selecting 1 man from 4 (4 ways) and the number of ways of selecting three women from 3 (only 1 way)
+\item The probability of selecting three women is therefore ${4 \times 1 \over 35} = 4/35$
+\item So using the addition rule
+\[ Pr(\mbox{ at least 2 women }) = Pr(\mbox{ 2 women }) + Pr(\mbox{ 3 women }) \]
+\[ Pr(\mbox{ at least 2 women })  = 18/35 + 4/35 = 22/35 \]
+\end{itemize}
+
+%===================================================================================================%
+
+
+\end{document}
