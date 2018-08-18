@@ -1,0 +1,129 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+\section*{Binary Numbers Tutorial Sheet B}
+
+\begin{enumerate}
+
+
+
+% http://www.csgnetwork.com/binaddsubcalc.html
+% (See section 1.1.3 of the text)
+
+\item Perform the following binary additions.
+  \begin{multicols}{2}
+    \begin{itemize}
+    \item[a)] $(110101)_{2}$ + $(1010111)_{2}$
+    \item[b)] $(1010101)_{2}$ + $(101010)_{2}$
+    \item[c)] $(11001010)_{2}$ + $(10110101)_{2}$
+    \item[d)] $(1011001)_{2}$ + $(111010)_{2}$
+    \end{itemize}
+  \end{multicols}
+
+
+\item Perform the following binary divisions.
+\begin{multicols}{2}
+\begin{itemize}
+\item[a)] $(1001000)_{2} \div ( 1000)_{2}$
+\item[b)] $(101101)_{2} \div (1001)_{2}$
+\item[c)] $(1001011000)_{2} \div (101000)_{2}$
+\item[d)] $(1100000)_{2} \div (10000)_{2}$
+\end{itemize}
+\end{multicols}
+
+
+\item Binary Substraction
+
+
+\begin{multicols}{2}
+	\begin{itemize}
+		\item[(i)] 110 - 10	
+		\item[(ii)] 101 - 11  
+		\item[(iii)] 1001 - 11	
+		\item[(iv)] 10001 - 100 
+		\item[(v)] 101001 - 1101
+		\item[(vi)] 11010101-1101
+	\end{itemize}
+\end{multicols}
+
+\item 
+
+Perform the binary subtractions using both the bit-borrowing method and the two's complement method.
+\begin{enumerate}[(a)]
+\item $(1001)_2 -(111)_2$
+\item $(110000)_2 -(10111)_2$
+\end{enumerate}
+
+%\section*{Binary Arithmetic : addition, multiplication and bit-borrowing}
+%http://www.csgnetwork.com/binaddsubcalc.html
+%(See section 1.1.3 of the text)
+
+	\item Perform the following binary additions.
+	\begin{multicols}{2}
+		\begin{itemize}
+			\item[(a)] $(110101)_{2}$ + $(1010111)_{2}$
+			\item[(b)] $(1010101)_{2}$ + $(101010)_{2}$
+			\item[(c)] $(11001010)_{2}$ + $(10110101)_{2}$
+			\item[(d)] $(1011001)_{2}$ + $(111010)_{2}$
+		\end{itemize}
+	\end{multicols}
+	\item Perform the following binary multiplications.
+	\begin{multicols}{2}
+		\begin{itemize}
+			\item[a)] $(1001)_{2}\times( 1000)_{2}$  % 9 by 8
+			\item[b)] $(101)_{2}\times(1101)_{2}$ % 5 by 11
+			\item[c)] $(111)_{2}\times(1111)_{2}$ % 7 by 15
+			\item[d)] $(10000)_{2}\times(11001)_{2}$    %16 by 25
+		\end{itemize}
+		\end{multicols}		
+
+	\item Perform the following binary multiplications.
+	\begin{multicols}{2}
+	\begin{itemize}
+	\item[a)] $(1001000)_{2} \div ( 1000)_{2}$
+	\item[b)] $(101101)_{2} \div (1001)_{2}$
+	\item[c)] $(1001011000)_{2} \div (101000)_{2}$
+	\item[d)] $(1100000)_{2} \div (10000)_{2}$
+	\end{itemize}
+	\end{multicols}
+	
+
+
+
+
+
+
+	\item Perform the following binary division exercises.
+	\begin{multicols}{2}
+	\begin{itemize}
+	\item[a)] $(1001000)_{2} \div ( 1000)_{2}$
+	\item[b)] $(101101)_{2} \div (1001)_{2}$
+	\item[c)] $(1001011000)_{2} \div (101000)_{2}$
+	\item[d)] $(1100000)_{2} \div (10000)_{2}$
+	\end{itemize}
+	\end{multicols}
+	
+	
+\end{enumerate}
+
+%===================================%
+\end{document}

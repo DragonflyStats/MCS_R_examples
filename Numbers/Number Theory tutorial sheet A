@@ -1,0 +1,200 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{graphics}
+\usepackage{amsfonts}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+\section*{Number Theory : Tutorial Sheet A}
+\begin{enumerate}
+	\item State which of the following sets the following numbers belong to. 
+	\begin{multicols}{4}
+		\begin{itemize}
+			\item[1)] $18$
+			\item[2)] $8.2347\ldots$
+			\item[3)] $\pi$
+			\item[4)] $1.33333\ldots$
+			\item[5)] $17/4$
+			\item[6)] $4.25$
+			\item[7)] $\sqrt{\pi}$
+			\item[8)] $\sqrt{25}$
+			%\item[i)]
+			%\item[j)] $(15)_{10}$
+			%\item[k)] $\pi$
+			%\item[l)] $11.132$
+		\end{itemize}
+	\end{multicols}
+	\bigskip
+	The possible answers are
+	
+	\begin{itemize}
+		\item[a)] Natural number : $\mathbb{N} \subseteq \mathbb{Z } \subseteq \mathbb{Q} \subseteq \mathbb{R}$
+		\item[b)] Integer : $ \mathbb{Z } \subseteq \mathbb{Q} \subseteq \mathbb{R}$
+		\item[c)] Rational Number : $ \mathbb{Q} \subseteq \mathbb{R}$
+		\item[d)] Real Number $\mathbb{R}$
+
+	\end{itemize}
+	
+	\item Express the recurring decimal $0.4242424\ldots$
+ as a rational number in its simplest
+form.\newline 
+	%---------------------------%
+
+
+%-------------%-------------%-------------%----------------
+\item 
+
+Perform the binary multiplications
+\begin{itemize}
+\item $(1101)_2 \times (101)_2$
+\item $(1101)_2 \times (1101)_2$
+\end{itemize}
+
+
+	
+
+
+%-------------%-------------%-------------%----------------
+\item Express 42900 as a product of its prime factors, using index notation for repeated factors.
+
+
+
+\item Expresse the recuring decimals 
+\begin{itemize}
+	\item[(i)] $0.727272\ldots$
+	\item[(ii)] $0.126126126....$
+	\item[(iii)] $0.7545454545...$
+\end{itemize} 
+as rational numbers in its simplest form.
+
+
+\item Given that $\pi$ is an irrational number, can you say whether $\frac{\pi}{2}$ is rational or irrational.
+or is it impossible to tell?
+
+
+\item Given that $\pi$ is an irrational number, can you say whether $\frac{\pi}{2}$ is rational or irrational.
+or is it impossible to tell?
+
+\item 
+\begin{itemize}
+\item[(i)] Write down the numbers 0.0000526 in floating point form.
+\item[(ii)] How is the number 1 expressed in floating point form.
+\end{itemize}
+
+\item 
+\begin{enumerate}[(i)]
+	\item Given x is the irrational positive number $\sqrt{2}$, express $x^8$ in binary notation
+	\item From part (i), is $x^8$ a rational number?
+\end{enumerate}
+
+\item 
+\begin{enumerate}[(i)]
+\item 5/7 lies between 0.714 and 0.715.
+\item $\sqrt(2)$ is at least 1.41.
+\item $\sqrt(3)$  9s at lrast 1.732 and at most 1.7322.
+\end{enumerate}
+
+
+
+\item 
+\begin{enumerate}[(i)]
+\item Deduce that every composite integer $n$ has a prime factor such that $p \leq \sqrt{n}$.
+\item Decide whether 899 is a prime.
+\end{enumerate}
+
+\item 
+\begin{enumerate}[(i)]
+\item What would be the maximum numbber of digits that a decimal fraction with denominator 13 
+could have in a recurring block in theory?
+
+\item Can you predict which other fractions with denominator 13 will have the same digits as 1/13 in their recurring block?
+\end{enumerate}
+
+	\item Suppose 2341 is a base-5 number
+	Compute the equivalent in each of the following forms:
+	\begin{itemize}
+		\item[(i)] decimal number
+		\item[(ii)] hexadecimal number
+		\item[(iii)] binary number
+	\end{itemize}
+
+
+\item 
+A number is expressed in base 5 as $(234)_5$. What is it as decimal number?
+Suppose you multiply $(234)_5$ by 5. what would be the answer in base 5.
+
+%-------------%-------------%-------------%----------------
+    \item Express 42900 as a product of its prime factors, using index notation for repeated factors.
+
+\item 
+\begin{enumerate}[(i)]
+\item 5/7 lies between 0.714 and 0.715.
+\item $\sqrt(2)$ is at least 1.41.
+\item $\sqrt(3)$  9s at lrast 1.732 and at most 1.7322.
+\end{enumerate}
+
+\item 
+\begin{itemize}
+\item[(i)] Write down the numbers 0.0000526 in floating point form.
+\item[(ii)] How is the number 1 expressed in floating point form.
+\end{itemize}
+
+
+\item \begin{enumerate}[(i)]
+\item Deduce that every composite integer $n$ has a prime factor such that $p \leq \sqrt{n}$.
+\item Decide whether 899 is a prime.
+\end{enumerate}
+
+\item 
+
+\begin{enumerate}[(i)]
+\item What would be the maximum numbber of digits that a decimal fraction with denominator 13 
+could have in a recurring block in theory?
+
+\item Can you predict which other fractions with denominator 13 will have the same digits as 1/13 in their recurring block?
+\end{enumerate}
+\end{enumerate}
+\end{document}
+
+\section{Fundamental of Mathematics}
+
+\subsection{Powers}
+
+\[  2^ 4 = 2 \times 2 \times 2 \times 2 = 16 \]
+
+\[  5^ 3 = 5 \times 5 \times 5 =125 \]
+
+\subsubsection{Special Cases}
+
+Anything to the power of zero is always 1
+
+\[  X^ 0 = 1 \mbox{ for all values of X} \]
+
+Sometimes the power is a negative number.
+
+\[  X^{-Y} = \frac{ 1}{ X^Y}  \]
+
+Example 
+\[  2^{-3} = { 1 \over 2^3} = { 1 \over 8}  \]
+
+
+
+\newpage
+\end{document}
+

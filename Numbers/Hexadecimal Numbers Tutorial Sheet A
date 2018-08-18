@@ -1,0 +1,54 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+\section*{Hexadecimal Numbers Tutorial Sheet A}
+
+\begin{enumerate}
+\item Write the hex number $(EC4)_{16}$ in binary.
+\item Write the binary number $(111101101011_2$ in Hex.
+%-------------%-------------%-------------%----------------
+\item What is highest Hexadecimal number that can be written with two characters, and what is it's equivalent in decimal form?
+What is the next highest hexadecimal number?
+
+% \[FF = 255\] % Remark 
+\item Which of the following are not valid hexadecimal numbers?
+
+\begin{multicols}{2}
+\begin{itemize}
+\item[(i)] A5G 	
+\item[(ii)] 73 
+\item[(iii)] EEF	
+\item[(iv)] 101
+\end{itemize}
+\end{multicols}
+\item Calculate working in hexadecimal
+\begin{enumerate}
+\item $(BBB)_{16} + (A56)_{16}$
+\item $(BBB)_{16} - (A56)_{16}$
+\end{enumerate} 
+
+
+\item Express the decimal number 753 in binary , base 5 and hexadecimal.
+
+%-------------%-------------%-------------%----------------
+\end{enumerate}
+\end{document}
