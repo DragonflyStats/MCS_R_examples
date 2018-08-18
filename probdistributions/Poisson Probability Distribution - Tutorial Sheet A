@@ -1,0 +1,143 @@
+\documentclass[]{report}
+
+\voffset=-1.5cm
+\oddsidemargin=0.0cm
+\textwidth = 480pt
+
+\usepackage{framed}
+\usepackage{subfiles}
+\usepackage{graphics}
+\usepackage{newlfont}
+\usepackage{eurosym}
+\usepackage{amsmath,amsthm,amsfonts}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{graphicx}
+\begin{document}
+\section*{Poisson Probability Distribution: Tutorial Sheet}
+\begin{enumerate}
+    \item Suppose that a telephone help-line receives 4 calls per hour during offices hours.
+\begin{itemize}
+	\item[a.] (1 Mark) Compute the value of $m$ for a 30 minute period during office hours.
+	\item[b.] (1 Mark) Compute the probability of the help-line getting exactly one call in a 30 minute period during office hours.
+\end{itemize}
+
+\item The Binomial Distribution
+\begin{enumerate}[(a)]
+\item State the four conditions to be satisfied for the Binomial probability
+	distribution to apply.
+\item When can the Poisson distribution be used as an approximation to the
+	Binomial distribution?
+\end{enumerate}
+
+%- September 2006 Question 6
+\item It is assumed that claims arising on an industrial policy can be modelled as a Poisson
+process at a rate of 0.5 per year.
+\begin{enumerate}[(a)]
+	\item Determine the probability that no claims arise in a single year. 
+	\item Determine the probability that, in three consecutive years, there is one or more
+	claims in one of the years and no claims in each of the other two years.
+	\item Suppose a claim has just occurred. Determine the probability that more than
+	two years will elapse before the next claim occurs.
+\end{enumerate}
+
+\[  P(X > 115.5) = 1 -\theta(-2.26) = \theta(2.26) = 0.99\]
+
+%=====================================%
+
+
+
+\item Flaws occur in an LCD display at the rate of 0.5 per square mm.  Calculate the probability that:
+\begin{enumerate}[(a)]
+	\item	exactly 2 flaws will occur in a square mm section
+	\item	exactly 3 flaws will occur in a 5 square mm section
+	\item	5 or more flaws will occur in a 10 square mm section
+\end{enumerate}
+
+\item There is a constant probability of 0.05 that the power supply in a server network will fail.  You are required to calculate the probability that the power supply will fail the 4th time it is switched on.
+
+
+\item A motor dealership which specializes in agricultural machinery sells on vehicle every 2 days, on average
+
+In this question the unit period is one day. The company expects to sell, on average, 0.5 vehicles every day.
+The Poisson mean $m$ is therefore 0.5.
+
+$P(X \geq 1)$
+\begin{framed}
+Go to your Poisson tables, and search for the $m=0.5$ column.
+We are interested in the probability of \textbf{exactly} one vehicle sold on a particular day.
+From the tables we can easily work out P($X \geq 1$), but this is probability of one or more vehicles being sold.
+This is not the same thing.
+\[P(X \geq 1) = P(X =1) + P( X=2) + P(X=3) + \ldots
+P(X \geq 1) = P(X=1) + P(X \geq 2)\]
+From tables
+$P(X \geq 1)$
+$P(X \geq 2)$
+
+Six day working week?
+our unit period is now six days.
+How many vehicles do we expect to sell in 6 days?
+answer = 3
+$m=3$
+
+P($X\geq 4$)
+\begin{eqnarray}
+e^{-6/5} = 0.3011942
+e^{-4/5} = 0.449329
+e^{-5/5} = 0.3678794
+\end{eqnarray}
+\end{framed}
+
+\item XYZ Ltd supplies motherboards to Dell.  You are a production manager with Dell.  There is a constant probability of 0.4 that a board will be defective.  You select 100 boards at random.  Using the log tables for the binomial distribution what is the probability that
+
+\begin{itemize}
+	\item[(i)] 0 boards will be defective?
+	\item[(ii)] 2 or more boards will be defective?
+	\item[(iii)]	5 or less boards will be defective?
+\end{itemize}
+% (6 marks)
+(d)	Use the normal approximation to the binomial to answer (i), (ii) and (iii) in part (c) above.
+%(6 marks
+
+
+\item 
+The number of particles emitted by a radioactive source in 1 minute has a Poisson distribution with parameter m=1.2, called the emission rate. Calculate the probability that
+\begin{enumerate}[(a)]
+    \item No particle is emitted
+\item At least 4 particles are emitted
+\end{enumerate}
+
+\item 
+Phone calls arrive at a help desk at the rate of 48 per hour.
+\begin{enumerate}[(a)]
+\item Find the probability of receiving three calls in a five minute period of time.
+\item	What is the probability of receiving 5 or fewer calls in a 15 minute interval of time.
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\item Cars enter a car wash at an average rate of 4 per half hour. 
+\begin{enumerate}[(a)]
+    \item	Compute the probability that the 3 cars arrive in a half hour period.
+\item 	Compute the probability that the 6 cars arrive in a one hour period.
+\end{enumerate}
+\item  
+%Poisson Approximation of Binomial distribution
+A particular electronic component is produced by a manufacturing process for which 0.1\% of components are produced are defective. Consider a consignment of 5,000 of these times.
+Let X denote the number of defective components in the consignment.
+Use the Poisson Approximation of the binomial distribution to calculate $P(X \leq 5)$
+
+\item  A computer server breaks down on average once every three months.
+
+\begin{enumerate}[(a)]
+	\item What is the probability that the server breaks down three times in a quarter?
+	\item What is the probability that a server breaks down exactly five times in one year?
+\end{enumerate}
+
+\end{enumerate}
+
+\end{document}

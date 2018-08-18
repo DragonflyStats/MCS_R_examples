@@ -1,0 +1,232 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{subfigure}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+
+\setcounter{MaxMatrixCols}{10}
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.00.0.2570}
+%TCIDATA{<META NAME="SaveForMode"CONTENT="1">}
+%TCIDATA{LastRevised=Wednesday, February 23, 201113:24:34}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{Language=American English}
+
+\pagestyle{fancy}
+\setmarginsrb{20mm}{0mm}{20mm}{25mm}{12mm}{11mm}{0mm}{11mm}
+\lhead{Maths Resource } \rhead{Tutorial Sheet} \chead{Normal Distribution} %\input{tcilatex}
+
+\begin{document}
+
+\begin{enumerate}
+\item Assume that Z scores are normally distributed with a mean of Zero and a standard deviation of 1
+\begin{itemize}
+\item[(a)] $P(0< Z < a)$ = 0.1915 Find a
+\item[(b)] $P(- b \leq Z \leq b)$ = 0.90 Find b
+\item[(c)] $P(- c \leq Z \leq c)$ = 0.99 Find c
+\item[(d)] $P(Z \leq d) = 0.3085$ Find d
+\end{itemize}
+
+%- MA4704 Spring 2008/2009 : Question 2A
+\item 
+Given the following information calculate the value of $z_1$ and $z_2$ using the normal tables.
+\begin{enumerate}[(a)]
+    \item $P(Z \geq z_2) = 0.0045$ 
+    \item $P(z_1 \leq Z \leq z_2) = 0.0205$
+\end{enumerate}
+
+%Note: 2 is the area under the curve between Z1 and Z2.
+
+\item The weight of shire horses is assumed to have a normal distribution with mean 1000kg and standard
+deviation 50kg.
+\begin{enumerate}[(a)]
+    \item Calculate the probability that the mass of a shire horse is more than 970kgs.
+        \item Calculate the probability that the mass of a shire horse is no more than 1035kg.
+\item Calculate the probability that the mass of a shire horse is between 945kg and 1035kg.
+%\item What weight is exceeded by 2.5\% of shire horses? 
+\end{enumerate}
+
+%------------------------------------------------------%
+\item 
+The lifetime of an electrical component is known to follow a normal distribution with a
+mean of 2,000 hours and a standard deviation of 200 hours.
+Compute the probability that a randomly selected component will last
+\begin{enumerate}[(a)]
+\item more than 2,220 hours,
+\item between 2,000 and 2,400 hours.
+\end{enumerate}
+%------------------------------------------------------%
+\item 
+A Physical Education teacher in a secondary school is marking performance of students on the high
+jump coming up to their end of year exams. For the given age group published data suggest a mean
+jumping height of 1.5m and standard deviation of 10cm and the data are considered to be normally distributed. The
+teacher wishes to distribute marks according to the normal curve and have the following
+proportions allotted for grades.
+\begin{center}
+\begin{tabular}{ccccc}
+A&  B & C & D & \\
+20\% &  64\% & 14\% &  2\%& (100\%)\\
+\end{tabular}
+\end{center}
+Draw a sketch of the normal distribution. On the axis mark the mean height. Calculate what heights
+will be required in order for students to attain the A, B, C and D grades. Mark these onto your
+sketch.
+\newpage
+%------------------------------------------------------%
+		\item 95\% of students at school weigh between 62 kg and 90 kg.
+		Assuming this data is normally distributed, what are the mean and standard deviation?
+%------------------------------------------------------%		
+\item A machine produces electrical components.
+		99.7\% of the components have lengths between 1.176 cm and 1.224 cm.
+		Assuming this data is normally distributed, what are the mean and standard deviation?
+%------------------------------------------------------%		
+		\item 68\% of the marks in a test are between 52 and 64
+		Assuming this data is normally distributed, what are the mean and standard deviation?
+		%------------------------------------------------------%
+\item The amount of time required for routine automobile transmission service is normally distributed
+with the mean 45 minutes and the standard deviation 8.0 minutes.
+The service manager plans to have work begin on the transmission of a customer’s car 10 min after
+the car is dropped off, and the customer is told that the car will be ready within 1 hour total time
+(i.e. after the car is dropped off).
+What is the probability that the service manager will be wrong?
+%------------------------------------------------------%
+\item Assume that the length of injected moulded plastic components are normally
+distributed with a mean of 10mm and a standard deviation of 2mm. Draw a rough
+sketch and then calculate corresponding probability for the following measurements
+occurring on an individual component:
+\begin{enumerate}[(a)]
+\item Between 10 and 12.4mms
+\item Less than 9.7 mms
+\item Between 9.8 and 10.1 mms
+\item Less than 10.3 mms
+\end{enumerate}
+
+
+
+\item The gestation period is approximately normally distributed with a mean of 275 days and a standard deviation of 4 days. Estimate the probability that the gestation period is 
+\begin{enumerate}[(a)]
+\item greater than 280 days
+\item less than 265 days
+\item between 272 and 283 days.
+\item What gestation period is surpassed by 2.5\% of the population? 
+
+\end{enumerate}
+
+\item The length of the jump of an athlete has a normal distribution with mean 7m and standard deviation 0.1m. Calculate the probability that she jumps
+\begin{enumerate}[(a)]
+\item at least 7.15m
+\item no more than 7.15m
+\item between 7.1m and 7.20m 
+\item Find the probability that if she jumps 3 times all the jumps will be less than 7.15m (assume the lengths of the jumps are independent). 
+\end{enumerate}
+\item The period of pain relief reported by people treated with a drug is normally distributed with a Mean of 50 hours and a Standard Deviation of 16 hours.  In a random sample of 64 people treated with the drug, what is the probability that the mean period of relief reported is between 48 and 53 hours?
+
+\item Faults occur in a fibre optic cable at the rate of 0.5 per 10KM of cable.  Calculate the probability that:
+\begin{enumerate}[(a)]
+	\item Exactly 2 flaws will occur in a given 10KM section
+	\item 4 or more flaws will occur in a given 10KM section
+	\item Eircom are providing 100KM fibre optic connection between Limerick and Cork.  What is the probability of 7 or more flaws in the 100KM section?					
+\end{enumerate}
+
+%======================================================================%
+
+
+
+
+\item Assume that the length of injected moulded plastic components are normally distributed with a mean of 50mm and a standard deviation of 2mm.  Draw a rough sketch and then calculate corresponding probability for the following measurements occurring on an individual component:
+\begin{enumerate}[(a)]
+
+\item                  Between 50 and 52.4mms
+\item                Less than 47.6 mms
+\item             Between 48.2 and 51.6 mms
+\item            Less than 53.8 mms
+\end{enumerate}
+%----------------------------------------------------------------------% 
+\item Assume that Z scores are normally distributed with a mean of Zero and a standard deviation of 1
+\begin{enumerate}[(a)]
+
+\item     $P(0 \leq Z \leq a) = 0.4192$ Find a
+\item             $P(- b \leq Z \leq b) = 0.92$ Find b
+\item             $P(Z \leq c) = 0.2389$ Find c
+\end{enumerate}
+%--------------------------------------------------------------------%
+\item A physical education teacher wishes to classify her students performance on the high jump into the following grades:
+
+A = Excellent, B = Very Good, C = Moderate, D = Poor, E = Fail.
+
+Furthermore, she wishes to allocate  A Grades to 10\% of the students, B to 25\% , C to 30\%, D to 15\% and the rest as E grades.  Journal articles indicate that her students’ performance on the high jump is approximately normally distributed with a mean of 120 cm and a standard deviation of 10cm.  Assuming that the published data is accurate, calculate the heights at which the teacher should set the high jump in order to achieve her desired distribution of grades.
+
+\item Assume that the diameter of a critical component is normally distributed with a Mean of 50mm and a Standard Deviation of 2mm.
+
+NB 	You must draw a rough sketch of the normal curve and estimate the approximate probability of the following measurements occurring on an individual component. 
+
+\begin{enumerate}[(a)]
+\item Between 50 and 51.2mm
+\item Less than 48.5 mm
+\item Between 48.2 and 101.6 mm
+\end{enumerate}
+
+
+Use the normal tables to get the exact probabilities for the above.
+
+		\item The Fresha Tea Company pack tea in bags marked as 250 g
+		A large number of packs of tea were weighed and the mean and standard deviation were calculated as 255 g and 2.5 g respectively.
+		Assuming this data is normally distributed, what percentage of packs are underweight?
+		
+		\item Students pass a test if they score 50\% or more.
+		
+		The marks of a large number of students were sampled and the mean and standard deviation were calculated as 42\% and 8\% respectively.
+		
+		Assuming this data is normally distributed, what percentage of students pass the test?
+		
+%-------------------------------------------%
+
+\item A random sample of 100 parts (from (a) above) revealed that for 4 of those parts, the critical diameter measurements were outside spec.  You are requested to construct a 95\% confidence interval for the proportion defective.
+
+%-------------------------------------------%
+
+
+\item If the company wished to estimate the defective rate to within $\pm 2 \%$ with 95\% confidence, how big a sample would need to be undertaken to provide the relevant information?
+
+%-------------------------------------------%
+\item  Analogue signal received at a base station is normally distributed with a Mean of 70 microvolts (mv) and a Standard Deviation of 2 microvolts (mv).
+
+\textit{NB: You must draw a rough sketch of the normal curve and estimate the approximate probability of the following measurements occurring on an individual component. }
+
+\begin{enumerate}[(a)]
+\item 	 Between 70 and 71.8mv
+\item 	 Less than 68.5mv
+\item	 Between 68.2 and 71.6 mv
+\end{enumerate}
+Use the normal tables to get the exact probabilities for the above.
+
+%-------------------------------------------%
+\item 
+Assume that the amount of wine poured into a bottle has a normal distribution with a mean of 750ml and a variance of 144ml$^2$.
+
+\begin{itemize}
+	
+	\item[(a)]  Calculate the probability that a bottle contains more than 765ml. (2 marks)
+	\item[(b)]    Calculate the probability that a bottle contains between 744ml and 759ml. (3 marks)
+\end{itemize}
+%=========================================================== %
+\item A machine fills bags with animal feed. The nominal weight of a bag is 50kg.
+Because random variations the weight of a filled bag is normally distributed
+$N(\mu, \sigma^2)$. The variance ($\sigma^2$) is known to be 0.01kg$^2$ and $\mu$ is set by the
+operator to a particular value.
+
+\begin{itemize}
+	\item[(a)] If ? = 50kg calculate the probability of a bag containing less than
+	49.95kg?
+	\item[(b)] Calculate the value of "?" such that only $2\%$ of the output are under the
+	nominal weight?
+\end{itemize}
+
+\end{enumerate}
+\end{document}
+

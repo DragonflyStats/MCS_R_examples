@@ -1,0 +1,210 @@
+ \documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage[thinlines]{easytable}
+
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{framed}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+
+\setcounter{MaxMatrixCols}{10}
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.00.0.2570}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{LastRevised=Wednesday, February 23, 2011 13:24:34}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{Language=American English}
+
+%\pagestyle{fancy}
+\setmarginsrb{20mm}{0mm}{20mm}{25mm}{12mm}{11mm}{0mm}{11mm}
+%\lhead{MA4413 2013} \rhead{Mr. Kevin O'Brien}
+%\chead{Midterm Assessment 1 }
+%\input{tcilatex}
+
+\begin{document}
+%========================================================================== %
+\subsection*{Integration : Tutorial Sheet 2}
+
+\begin{enumerate}
+\item Evaluate the following indefinite integrals using partial fractions:
+\begin{multicols}{2}
+	\begin{enumerate}[(i)]
+		
+		\item \[ \int \frac{x}{x^2-9} dx  \]
+		
+		\item \[ \int \frac{x-2}{x^2 - 4x + 3} dx  \]
+		
+		\item \[ \int \frac{2x-4}{x^2 - 4x + 8} dx  \]
+		
+	\end{enumerate}
+\end{multicols}
+
+\item Evaluate the following using integration by parts.
+
+\begin{multicols}{2}
+	\begin{enumerate}[(i)]
+		\item \[ \int -4\ln\left(x\right)dx\]
+		% -4x\ln\left(x\right)+4x+C
+		
+		\item \[ \int\left(-7x+38\right)\cos\left(x\right)dx\]
+		% \left(-7x+38\right)\sin\left(x\right)-7\cos\left(x\right)+C
+		
+		\item  \[\int_0^\frac{\pi}{2}\left(-6x+45\right)\cos\left(x\right)dx\]
+		
+		% -3\pi+51
+		
+		\item \[ \int\left(5x+1\right)\left(x-6\right)^4 dx\]
+		
+		% \frac{\left(5x+1\right)\left(x-6\right)^5}{5}-\frac{\left(x-6\right)^6}{6}+C
+		
+		\item \[ \int_{-1}^1 \left(2x+8\right)^3\left(-x+2\right)dx\]
+		
+		% \frac{9584}{5}
+		
+		\item \[ \int \sin\left(x\right) e^x\, dx \] 
+		% \frac 1 2 e^x\left(\sin\left(x\right) - \cos\left(x\right) \right) +C
+	\end{enumerate}
+\end{multicols}
+
+\begin{framed}
+\noindent	\textbf{Formula:} \\ If u and v are functions of x that have continuous derivatives,
+	then
+	\[\int udv = uv - \int vdu\]
+\end{framed}
+
+\begin{framed}
+It is considered a rule of thumb to remember the acronym \textbf{LIPET}
+when performing integration by parts. This acronym will help you to determine
+what to use as $u$. 
+
+
+\begin{description}
+	\item[L]-logarithms, 
+	\item[I]-inverse trigonometric functions,
+	\item[P]-polynomials (i.e. $x$, $x^2$) , 
+	\item[E]-exponentials (i.e. $e^x$, $e^{3x}$), 
+	\item[T]-trigonometric functions.
+\end{description}
+\end{framed}
+
+
+\item 
+% - http://en.wikibooks.org/wiki/Calculus/Integration/Exercises
+Evaluate the following:
+\begin{multicols}{2}
+	\begin{itemize}
+		
+		\item[(i)] \[\int x^2-(2x)^{2}\, dx\]
+		\item[(ii)] \[\int 8x^3\, dx\]
+		\item[(iii)]\[ \int (4x^2+11x^3)\, dx\]
+		\item[(iv)] \[\int (31x^{32}+4x^3-9x^4) \,dx\]
+		\item[(v)] \[\int 5x^{-2}\, dx\]
+	\end{itemize}
+\end{multicols}
+
+\item The following questions are from previous past papers. Please be advised of the notes below.
+\begin{enumerate}[(i)]
+	\item Use integration by parts to find $\displaystyle{\int xe^xdx}$ 
+	
+	\item Use integration by parts to find $\displaystyle{\int x ln(x) dx}$ 
+	
+	\item Use integration by parts to find $\displaystyle{\int x sinh(x) dx}$ 
+	
+	\item Use integration by parts to find $\displaystyle{\int x cos(x) dx}$ 
+	
+	\item Use integration by parts to find $\displaystyle{\int x cosh(x) dx}$ 
+	
+	\item Use integration by parts to find $\displaystyle{\int xe^xdx}$ 
+\end{enumerate}
+
+%=================================%
+\begin{framed}
+	\begin{itemize}
+		\item
+		$\cosh(x)$ is both the derivative and integral of $\sinh(x)$
+		
+		\item
+		$\sinh(x)$ is both the derivative and integral of $\cosh(x)$
+	\end{itemize}
+\end{framed}
+%===============================================================================%
+\item 
+Evaluate the following definite integrals 
+
+
+\begin{multicols}{2}
+	\begin{enumerate}[(i)]
+		\item \[ \int^{2}_{1} (x^2-1) dx \]
+		
+		%	\item  \[ \int^{2}_{0} x^2+1 dx \]
+		
+		\item \[ \int^{\frac{\pi}{2}}_{0} \cos x dx \]
+		
+		\item \[ \int^{\pi}_{0} \cos x dx \]
+		
+		\item \[ \int^{2}_{1} (y^2 - y^{-2}) dy \]
+		
+		% - \item \[ \int^{2}_{1} y^2+y{-2} dx \]
+		
+		\item \[ \int^{1}_{-3} (6x^2 -5x + 2)dx \]
+		
+		% - \item \[ \int^{1}_{-3} \int 6x^2 -5x +2 dx \]
+		
+		
+		
+		\item \[ \int^0_4 \sqrt{t}(t-2) dt \]
+		
+		% - \item \[ \int^{0}_{4} \sqrt{t}(t-2) dt \]
+		
+		
+		% - http://tutorial.math.lamar.edu/Classes/CalcI/ComputingDefiniteIntegrals.aspx#Int_CompDef_Ex3a
+		
+		% -	\item \[ \int^{2}_{1} \frac{2w^5 - w + 3}{w^2} dw \]
+		
+		% - \item \[ \int^{2}_{1} dR \]
+	\end{enumerate}
+\end{multicols}
+%-------------------------------------------------%
+
+\begin{framed}
+	\textbf{Hint:} 
+	\[ \int \sqrt{t}(t-2) dt \]
+	
+	\[ \sqrt{t}(t-2) = t^{1/2} \times (t - 2) = t^{3/2} - 2t^{1/2}\]
+	
+\end{framed}
+%--------------------------------------------------%
+
+
+% \[ x^2 - 4x + 3 = (x-1)(x-3) \]
+
+% \[ \int \frac{}{} dx \]
+
+
+
+
+\item Evaluate the following definite integral
+		\[ \int^{3}_{1} \frac{x}{3}  dx \]
+		\textbf{Solution}
+		\[ \int^{3}_{1} \frac{x}{3}  dx  = \left[\frac{x^4}{4}\right]^{3}_{1}= \frac{81}{4} - \frac{1}{4} = 20\]
+	
+\item Evaluate the following definite integral
+		
+		\[ \int^3_1 \frac{x^2 - 4x + 3}{x-3}  dx \] 
+	\smallskip	
+	\textbf{Solution}\\
+	\noindent	Factorize the numerator $x^2 - 4x + 3 = (x-1)(x-3)$
+		
+		
+		Treat it as an indefinite integral for time being.			
+		\[ \int \frac{x^2 - 4x + 3}{x-3}  dx = \int \frac{(x-1)(x-3)}{x-3}  dx  = \int (x-1) dx = \frac{x^2}{2} -x +c\] 
+		
+		\[ \left[ \frac{x^2}{2} -x\right]^{3}_{1} = (4.5-3)-(0.5-1) = 2\]
+\end{enumerate}
+\end{document}
