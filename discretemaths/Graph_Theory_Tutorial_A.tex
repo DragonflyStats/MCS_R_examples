@@ -1,0 +1,77 @@
+\documentclass[]{article}
+\voffset=-1.5cm
+\oddsidemargin=0.0cm
+\textwidth = 470pt
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{framed}
+
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{multicol}
+\begin{document}
+\section*{Graph Theory: Tutorial Sheet}
+\begin{enumerate}
+\item Draw a graph with degree sequence 4,3,2,2. If it is not possible to draw this graph, explain why.
+\item Draw a graph with degree sequence 4,3,3,2,2. If it is not possible to draw this graph, explain why.
+\item Explain what is meant by a complete graph. How is a complete graph, with n vertices denoted?
+\item How many edges does a complete graph with 8 vertices contain?
+\item A graph is called $k$-regular if each of its vertices has degree $k$. Construct an 
+example of: 
+\begin{enumerate}[(i)]
+
+\item a 2-regular graph with 5 vertices; 
+\item a 3-regular graph with 6 vertices
+\item a 4-regular graph with 8 vertices.
+\end{enumerate}
+
+\item Is it possible to construct an 8 vertex graph where each vertex is connected to exactly 5 vertices? Is it possible to do so for a 9 vertex graph?
+\item Consider a d-regular graph on 7 vertices. What are the possible values for d. For each viable value for d, how many edges would there be?
+
+\item 
+Given the following definitions for simple, connected graphs:
+\begin{enumerate}
+\item $K_n$ is a graph on $n$ vertices where each pair of vertices is connected by an edge;
+\item $C_n$ is the graph with vertices $v_1, v_2, v_3, \dots, v_n$ and edges $\{v_1,v_2\}, \{v_2,v_3\}, \dots\{v_n, v_1\}$;
+\item $W_n$ is the graph obtained from $C_n$ by adding an extra vertex,$v_{n+1}$, and edges
+from this to each of the original vertices in $C_n$.
+\end{enumerate}
+Draw $K_4$, $C_4$, and $W_4$. 
+
+%-------------------------------------------------------- %
+
+% Section 5 Graph Theory
+\item 
+Let G be a simple graph with vertex set $V(G) = \{v1, v2, v3, v4, v5\}$ and adjacency lists as follows:
+\begin{verbatim}
+v1 : v2 v3 v4
+v2 : v1 v3 v4 v5
+v3 : v1 v2 v4
+v4 : v1 v2 v3.
+v5 : v2
+\end{verbatim}
+\begin{enumerate}[(i)]
+\item List the degree sequence of G. Draw the graph of G.
+\item Find two distinct paths of length 3, starting at v3 and ending at v4. Find a 4 cycle in G.
+\item Let G be a graph and let v be a vertex of G. Say what is meant by the degree of v.
+\item State, without proving, a result connecting the degrees of the vertices of a graph G with the number of its edges.
+
+\end{enumerate}
+\item
+\begin{enumerate}[(i)]
+
+\item State, without proving, a result connecting the degrees of the vertices of 
+a graph $G$ with the number of its edges. 
+\item Use this result to find the number of edges of a 3-regular graph with 10 
+vertices. 
+
+\item Explain why it is not possible to construct a 3-regular graph with 9 vertices. 
+
+\item A simple, connected graph has 7 vertices, all having the same degree $d$. State the possible values of $d$ and for each value also give the number of edges in the corresponding graph.
+\item 
+Another simple, connected graph has 6 vertices, all having the same degree; $n$. Draw such a graph when $n = 3$ and state the other possible values of $n$. 
+\end{enumerate}
+\end{enumerate}
+\end{document}
